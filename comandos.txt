@@ -3,3 +3,7 @@ npx create-react-app myApp
 
 2. iniciar el proyecto
 en la carpeta del proyecto: npm start
+
+3. imr: import React from 'react';
+
+4. sfc: funcion y export default
