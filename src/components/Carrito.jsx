@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './carrito.css';
 import Producto from './Producto';
 
@@ -8,7 +8,7 @@ const Carrito = ({carrito, agregarProductos}) => (
        
                 {carrito.length === 0
                 ? <p>No hay elementos en el carrito</p>
-                :carrito.map(producto => (
+                : carrito.map(producto => (
                     
                     <Producto
                         key={producto.id}
